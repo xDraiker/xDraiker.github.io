@@ -1,15 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-    <script type="module" crossorigin src="/assets/index-0c5f984f.js"></script>
-    <link rel="stylesheet" href="/assets/index-48a8825f.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resistor</title>
+    <script type="module" crossorigin src="/assets/index-2005f0d5.js"></script>
+    <link rel="stylesheet" href="/assets/index-f57328b0.css">
   </head>
   <body>
-    <div id="app"></div>
+    <h1 class="title">Calculo de resistencia</h1>
+    <div class="resistor" id="resistor">
+      <div class="resistor__line resistor__line--first" id="firstLine"></div>
+      <div class="resistor__line resistor__line--second" id="secondLine"></div>
+      <div class="resistor__line resistor__line--third" id="thirdLine"></div>
+      <div class="resistor__line resistor__line--fourth" id="fourthLine"></div>
+    </div>
+    <span class="ohm" id="ohm">220Ω 5%</span>
+    <div class="modal_color modal_color_value" id="modalColor">
+      <div class="modal_color__content">
+        <div id="black" class="modal_color__item modal_color__item--black"></div>
+        <div id="brown" class="modal_color__item modal_color__item--brown"></div>
+        <div id="red" class="modal_color__item modal_color__item--red"></div>
+        <div id="orange"  class="modal_color__item modal_color__item--orange"></div>
+        <div id="yellow"  class="modal_color__item modal_color__item--yellow"></div>
+        <div id="green" class="modal_color__item modal_color__item--green"></div>
+        <div id="blue"  class="modal_color__item modal_color__item--blue"></div>
+        <div id="purple" class="modal_color__item modal_color__item--purple"></div>
+        <div id="grey" class="modal_color__item modal_color__item--grey"></div>
+        <div id="white" class="modal_color__item modal_color__item--white"></div>
+      </div>
+    </div>
+    <div class="modal_color modal_color_tolerance" id="modalTolerance">
+      <div class="modal_color__content">
+        <div id="golden" class="modal_color__item modal_color__item--golden"></div>
+        <div id="silver" class="modal_color__item modal_color__item--silver"></div>
+        <div id="red" class="modal_color__item modal_color__item--red"></div>
+      </div>
+    </div>
     
   </body>
 </html>
